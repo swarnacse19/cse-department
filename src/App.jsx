@@ -10,6 +10,7 @@ import AboutDepartment from "./pages/AboutDepartment";
 // import CitizensCharter from "./pages/CitizensCharter";
 // import Notice from "./pages/Notice";
 import Contact from "./pages/Contact";
+import Notice from "./pages/Notice";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<AboutDepartment />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="notice" element={<Notice />} />
           {/* <Route path="about" element={<About />} />
           <Route path="people" element={<People />} />
           <Route path="research" element={<Research />} />
@@ -26,7 +28,6 @@ function App() {
           <Route path="curriculum" element={<Curriculum />} />
           <Route path="seminar" element={<Seminar />} />
           <Route path="citizens-charter" element={<CitizensCharter />} />
-          <Route path="notice" element={<Notice />} />
           <Route path="contact" element={<Contact />} /> */}
         </Route>
       </Routes>
