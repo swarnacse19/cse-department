@@ -1,4 +1,10 @@
+import UniversitySlider from "./UniversitySlider";
+
 const Home = () => {
-  return <h1 className="text-2xl font-bold">Welcome to BU CSE</h1>;
+  return (
+    <div>
+        <UniversitySlider></UniversitySlider>
+    </div>
+  )
 };
 export default Home;
