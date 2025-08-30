@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import RootLayout from "./layouts/RootLayout";
 import Home from "./pages/Home";
 import AboutDepartment from "./pages/AboutDepartment";
-// import About from "./pages/About";
 // import People from "./pages/People";
 // import Research from "./pages/Research";
 // import Publications from "./pages/Publications";
@@ -10,7 +9,7 @@ import AboutDepartment from "./pages/AboutDepartment";
 // import Seminar from "./pages/Seminar";
 // import CitizensCharter from "./pages/CitizensCharter";
 // import Notice from "./pages/Notice";
-// import Contact from "./pages/Contact";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -19,6 +18,7 @@ function App() {
         <Route path="/" element={<RootLayout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<AboutDepartment />} />
+          <Route path="contact" element={<Contact />} />
           {/* <Route path="about" element={<About />} />
           <Route path="people" element={<People />} />
           <Route path="research" element={<Research />} />
