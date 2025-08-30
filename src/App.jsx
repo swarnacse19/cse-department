@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router";
 import RootLayout from "./layouts/RootLayout";
 import Home from "./pages/Home";
+import AboutDepartment from "./pages/AboutDepartment";
 // import About from "./pages/About";
 // import People from "./pages/People";
 // import Research from "./pages/Research";
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<RootLayout />}>
           <Route index element={<Home />} />
+          <Route path="about" element={<AboutDepartment />} />
           {/* <Route path="about" element={<About />} />
           <Route path="people" element={<People />} />
           <Route path="research" element={<Research />} />
