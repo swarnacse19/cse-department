@@ -11,6 +11,7 @@ import AboutDepartment from "./pages/AboutDepartment";
 // import Notice from "./pages/Notice";
 import Contact from "./pages/Contact";
 import Notice from "./pages/Notice";
+import Faculty from "./pages/Faculty";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
           <Route path="about" element={<AboutDepartment />} />
           <Route path="contact" element={<Contact />} />
           <Route path="notice" element={<Notice />} />
-          {/* <Route path="about" element={<About />} />
+          <Route path="faculty" element={<Faculty />} />
+          {/* 
           <Route path="people" element={<People />} />
           <Route path="research" element={<Research />} />
           <Route path="publications" element={<Publications />} />
