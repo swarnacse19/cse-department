@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="bg-gray-100 py-16 px-6">
+    <section className="bg-gray-50 py-16 px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
         
         {/* Left - Contact Info */}
@@ -17,7 +17,7 @@ const Contact = () => {
 
           <ul className="space-y-3 text-gray-700">
             <li>
-              <span className="font-semibold">Phone:</span> +880-1234-567890
+              <span className="font-semibold">Phone:</span> +8801824311959
             </li>
             <li>
               <span className="font-semibold">Email:</span> cse@bu.ac.bd
