@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className="w-full sticky top-0 z-50 bg-base-200 shadow-md">
       {/* 🔹 Top Bar */}
-      <div className="flex justify-between items-center px-4 py-2 bg-blue-400 text-white font-semibold md:px-14">
+      <div className="flex justify-between items-center px-4 py-2 bg-blue-600 text-white font-semibold md:px-14">
         <div className="flex items-center gap-2">
           <img src={bu} alt="University Logo" className="w-8 h-8 bg-white rounded-sm" />
           <span className="text-lg">UNIVERSITY OF BARISHAL</span>

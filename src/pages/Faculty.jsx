@@ -1,5 +1,11 @@
 import React from "react";
 import bgImage from "../assets/universityBg.jpeg"; 
+import chairman from "../assets/chairman.jpg";
+import monjur from "../assets/monjur.jpg";
+import sams from "../assets/sams.jpg";
+import erfan from "../assets/erfan.jpg";
+import tania from "../assets/tania.jpg";
+import sohely from "../assets/sohely.jpg";
 
 const facultyMembers = {
   head: [
@@ -7,7 +13,7 @@ const facultyMembers = {
       name: "Dr. Rahat Hossain Faisal",
       title: "Associate Professor & Head",
       email: "head.cse@bu.ac.bd",
-      img: "/assets/chairman.jpg",
+      img: chairman,
     },
   ],
   associate: [
@@ -15,7 +21,7 @@ const facultyMembers = {
       name: "Dr. Md Manjur Ahmed",
       title: "Associate Professor",
       email: "manjur@bu.ac.bd",
-      img: "/assets/monjur.jpg",
+      img: monjur,
     },
   ],
   assistant: [
@@ -23,25 +29,25 @@ const facultyMembers = {
       name: "Md. Erfan",
       title: "Assistant Professor",
       email: "erfan@bu.ac.bd",
-      img: "/assets/erfan.jpg",
+      img: erfan,
     },
     {
       name: "Md Samsuddoha",
       title: "Assistant Professor",
       email: "msamsuddoha@bu.ac.bd",
-      img: "/assets/sams.jpg",
+      img: sams,
     },
     {
       name: "Dr. Tania Islam",
       title: "Assistant Professor",
       email: "tania@bu.ac.bd",
-      img: "/assets/tania.jpg",
+      img: tania,
     },
     {
       name: "Sohely Jahan",
       title: "Assistant Professor",
       email: "sohely@bu.ac.bd",
-      img: "/assets/sohely.jpg",
+      img: sohely,
     },
   ],
 };
