@@ -3,8 +3,21 @@ import notice from "../assets/notice.jpg";
 
 const Notice = () => {
   return (
-    <section className="py-16 px-6">
-      <div className="max-w-4xl mx-auto text-center">
+    <section>
+      <div
+        className="h-72 flex items-center justify-center bg-cover bg-center relative"
+        style={{ backgroundImage: "url('/bg1.jpg')" }}
+      >
+        <div className="relative text-center">
+          <h1 className="text-white text-4xl md:text-5xl font-bold">
+            Notices
+          </h1>
+          <p className="text-gray-200 mt-2">
+            Home <span className="text-yellow-400">/</span> Notices
+          </p>
+        </div>
+      </div>
+      <div className="max-w-4xl mx-auto text-center py-16 px-6">
         <h2 className="text-3xl font-bold text-blue-700 mb-6">
           Latest Notice
         </h2>

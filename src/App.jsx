@@ -7,6 +7,7 @@ import Notice from "./pages/Notice";
 import Faculty from "./pages/Faculty";
 import Research from "./pages/Research";
 import Programs from "./pages/Programs";
+import Students from "./pages/Students";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="faculty" element={<Faculty />} />
           <Route path="research" element={<Research />} />
           <Route path="programs" element={<Programs />} />
+          <Route path="students" element={<Students />} />
         </Route>
       </Routes>
     </BrowserRouter>
