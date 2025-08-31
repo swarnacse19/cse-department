@@ -1,5 +1,4 @@
 import React from "react";
-import bgImage from "../assets/universityBg.jpeg"; 
 import chairman from "../assets/chairman.jpg";
 import monjur from "../assets/monjur.jpg";
 import sams from "../assets/sams.jpg";
@@ -58,9 +57,8 @@ const Faculty = () => {
       {/* Header section with bg */}
       <div
         className="h-80 flex items-center justify-center bg-cover bg-center relative"
-        style={{ backgroundImage: `url(${bgImage})` }}
+        style={{ backgroundImage: "url('/bg1.jpg')" }}
       >
-        <div className="absolute inset-0 bg-blue-900 bg-opacity-70"></div>
         <h1 className="relative text-white text-4xl md:text-5xl font-bold">
           Our Faculty
         </h1>

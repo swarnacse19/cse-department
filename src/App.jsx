@@ -2,16 +2,10 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import RootLayout from "./layouts/RootLayout";
 import Home from "./pages/Home";
 import AboutDepartment from "./pages/AboutDepartment";
-// import People from "./pages/People";
-// import Research from "./pages/Research";
-// import Publications from "./pages/Publications";
-// import Curriculum from "./pages/Curriculum";
-// import Seminar from "./pages/Seminar";
-// import CitizensCharter from "./pages/CitizensCharter";
-// import Notice from "./pages/Notice";
 import Contact from "./pages/Contact";
 import Notice from "./pages/Notice";
 import Faculty from "./pages/Faculty";
+import Research from "./pages/Research";
 
 function App() {
   return (
@@ -23,9 +17,9 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="notice" element={<Notice />} />
           <Route path="faculty" element={<Faculty />} />
+          <Route path="research" element={<Research />} />
           {/* 
           <Route path="people" element={<People />} />
-          <Route path="research" element={<Research />} />
           <Route path="publications" element={<Publications />} />
           <Route path="curriculum" element={<Curriculum />} />
           <Route path="seminar" element={<Seminar />} />
