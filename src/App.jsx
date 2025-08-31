@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Notice from "./pages/Notice";
 import Faculty from "./pages/Faculty";
 import Research from "./pages/Research";
+import Programs from "./pages/Programs";
 
 function App() {
   return (
@@ -18,13 +19,7 @@ function App() {
           <Route path="notice" element={<Notice />} />
           <Route path="faculty" element={<Faculty />} />
           <Route path="research" element={<Research />} />
-          {/* 
-          <Route path="people" element={<People />} />
-          <Route path="publications" element={<Publications />} />
-          <Route path="curriculum" element={<Curriculum />} />
-          <Route path="seminar" element={<Seminar />} />
-          <Route path="citizens-charter" element={<CitizensCharter />} />
-          <Route path="contact" element={<Contact />} /> */}
+          <Route path="programs" element={<Programs />} />
         </Route>
       </Routes>
     </BrowserRouter>
